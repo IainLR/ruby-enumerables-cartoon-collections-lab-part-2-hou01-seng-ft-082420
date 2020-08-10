@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
 #  end 
 
 planeteer_calls.find do |element|
-  valid_calls.any? 
+  valid_calls.include? (element)
 end 
 
 end
